@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .healthy-eating {
+    background: linear-gradient(to top, #ffe4b5, #87cefa);
+    padding: 40px 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .healthy-eating h2 {
+    font-size: 2.5em;
+    color: #ff6f61;
+  }
+  
+  .healthy-eating p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .food-groups {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .group {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .group h3 {
+    font-size: 1.5em;
+    color: #3a7bd5;
+    margin-bottom: 10px;
+  }
+  
+  .group img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .group p {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .home-return {
+    margin-top: 30px;
+  }
+  
+  .home-return a {
+    background-color: #3a7bd5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+  .home-return a:hover {
+    background-color: #2a5ba5;
+    transition: 0.3s;
+  }
+  
+  

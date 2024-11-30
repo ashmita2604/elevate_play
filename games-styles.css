@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #f5f7fa, #c3d8f2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .game-container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 600px;
+  }
+  
+  h1 {
+    color: #ff5722;
+  }
+  
+  .game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .card {
+    width: 100%;
+    padding-top: 100%; /* Makes cards square */
+    position: relative;
+    background-color: #4caf50;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.1);
+  }
+  
+  .card img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    display: none;
+  }
+  
+  .card.flipped img {
+    display: block;
+  }
+  
+  #restartGame {
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #restartGame:hover {
+    background-color: #1976d2;
+  }
+  
+  .return-section {
+    margin-top: 20px;
+  }
+  
+  .return-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2196f3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .return-button:hover {
+    background-color: #1976d2;
+  }
+  
