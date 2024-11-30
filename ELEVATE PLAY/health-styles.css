@@ -1,0 +1,100 @@
+/* Background Matches Main Design */
+body {
+    background: linear-gradient(to bottom, #87ceeb, #ffffff);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+    color: #5d4037;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  .main-header {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px;
+    text-align: right;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Health Intro */
+  .health-intro {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    color: #5d4037;
+  }
+  
+  .health-intro h1 {
+    font-size: 2.5rem;
+  }
+  
+  .health-intro p {
+    font-size: 1.2rem;
+  }
+  
+  /* Health Categories */
+  .health-categories {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+  }
+  
+  .health-category {
+    background-color: #ffd54f;
+    border-radius: 15px;
+    padding: 20px;
+    width: 22%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+  }
+  
+  .health-category:hover {
+    transform: scale(1.1);
+  }
+  
+  .health-category img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .health-category h2 {
+    font-size: 1.5rem;
+  }
+  
+  .health-category p {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .category-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #5d4037;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .category-link:hover {
+    background-color: #3e2723;
+  }
+  

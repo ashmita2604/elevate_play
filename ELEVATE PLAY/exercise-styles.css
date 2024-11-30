@@ -1,0 +1,79 @@
+.fun-exercises {
+    background: linear-gradient(to top, #ffecb3, #87cefa);
+    padding: 40px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .fun-exercises h2 {
+    font-size: 2.5em;
+    color: #ff6f61;
+  }
+  
+  .exercise-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .exercise {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .exercise h3 {
+    color: #3a7bd5;
+  }
+  
+  .exercise img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .timer {
+    margin-top: 30px;
+  }
+  
+  .timer button {
+    background-color: #3a7bd5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+  }
+  
+  .timer button:hover {
+    background-color: #2a5ba5;
+    transition: 0.3s;
+  }
+  
+  .timer #timer-display {
+    font-size: 1.5em;
+    color: #ff6f61;
+    margin-top: 10px;
+  }
+  .home-return {
+    margin-top: 30px;
+  }
+  
+  .home-return a {
+    background-color: #42a5f5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+  .home-return a:hover {
+    background-color: #1e88e5;
+    transition: 0.3s;
+  }

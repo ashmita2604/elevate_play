@@ -1,0 +1,94 @@
+.contact-us {
+    background: linear-gradient(to top, #87CEFA, #F3E5AB);
+    color: #333;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-us h2 {
+    font-size: 2em;
+    color: #ff6f61;
+    margin-bottom: 10px;
+  }
+  
+  .contact-details {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .detail h3 {
+    font-size: 1.2em;
+    color: #ff6f61;
+  }
+  
+  .detail p {
+    font-size: 1em;
+    margin: 5px 0;
+  }
+  
+  .contact-form {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .contact-form h3 {
+    font-size: 1.5em;
+    color: #ff6f61;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  .contact-form input, 
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ff6f61;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .contact-form button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #e55651;
+  }
+
+  /* Styling for Return to Home Button */
+.home-button {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .return-home-btn {
+    display: inline-block;
+    background-color: #ff6f61;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .return-home-btn:hover {
+    background-color: #e55651;
+    transition: 0.3s;
+  }
+  
